@@ -7,7 +7,7 @@
   mainUsername = "matei";
   # Used for the user config and Git also
   fullName = "Matei Barbu";
-  userEmail = "mateibarbu19@disroot.org";
+  userEmail = "dev@mateibarbu.com";
   fepUser = "matei.barbu1905";
 
   # Used for GDM and the main user
