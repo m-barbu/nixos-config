@@ -91,6 +91,7 @@ in
       teams-for-linux
       ungoogled-chromium
       unstablePkgs.bitwarden-desktop
+      unstablePkgs.yt-dlp
 
       mission-center
 
