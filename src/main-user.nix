@@ -28,9 +28,6 @@ in
     ];
 
     packages = with pkgs; [
-      # Always useful
-      man-pages
-
       # Command line tools
       ripgrep
       fd

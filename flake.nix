@@ -12,6 +12,10 @@
       url = "github:nix-community/home-manager/release-26.05";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    nix-index-database = {
+      url = "github:nix-community/nix-index-database";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
     nix-software-center.url = "github:snowfallorg/nix-software-center";
     flatpaks.url = "github:in-a-dil-emma/declarative-flatpak/latest";
     zen-browser = {
@@ -88,6 +92,7 @@
           ./src/nix-settings.nix
           ./src/configuration.nix
           args.home-manager.nixosModules.default
+          args.nix-index-database.nixosModules.default
           args.flatpaks.nixosModules.default
         ];
       };

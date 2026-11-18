@@ -184,6 +184,10 @@ in
     nixd # language server
     nixfmt # formatter
     cachix # community caches
+    nix-index
+
+    # Always useful
+    man-pages
 
     # Shell environment
     bash
